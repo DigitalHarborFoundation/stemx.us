@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+<mapSettings 
+
+mapWidth = "960"
+mapHeight = "600"
+
+offColor = "0053a3"
+strokeColor = "AAAAAA"
+stemColor = "bdd100"
+
+useSideText = "true"
+textAreaWidth = "300"
+textAreaPadding = "10"
+
+/>
+
+<defaultSideText>
+  <![CDATA[]]>
+</defaultSideText>
+
+<stateData stateName="Alabama" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Alaska" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Arizona" stemOrg = "Arizona STEM Network" url = "http://www.sfaz.org/live/page/stem-network" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Arkansas" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="California" stemOrg = "California STEM Learning Network" url = "http://cslnet.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Colorado" stemOrg = "Colorado Experiential STEM Learning Network" url = "http://www.cesln.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Connecticut" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Delaware" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="District of Columbia" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Florida" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Georgia" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Hawaii" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Idaho" stemOrg = "iSTEM" url = "http://www.sde.idaho.gov/site/istem/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Illinois" stateMode = "OFF" >
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Indiana" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Iowa" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Kansas" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Kentucky" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Louisiana" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Maine" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Maryland" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Massachusetts" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Michigan" stemOrg = "Michigan STEM Partnership" url = "http://mistempartnership.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Minnesota" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Mississippi" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Missouri" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Montana" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Nebraska" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Nevada" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="New Hampshire" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="New Jersey" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="New Mexico" stemOrg = "New Mexico STEM Network" url = "http://newmexicostem.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="New York" stemOrg = "Empire State STEM Learning Network" url = "http://www.empirestem.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="North Carolina" stemOrg = "NC STEM Learning Network" url = "https://www.ncstem.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="North Dakota" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Ohio" stemOrg = "Ohio STEM Learning Network" url = "http://osln.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Oklahoma" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Oregon" stemOrg = "Oregon STEM Education Initiative" url = "http://www.ode.state.or.us/search/page/?id=3608" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Pennsylvania" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Rhode Island" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="South Carolina" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="South Dakota" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Tennessee" stemOrg = "Tennessee STEM Learning Network" url = "http://www.thetsin.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Texas" stemOrg = "Educate Texas" url = "http://www.edtx.org/" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Utah" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Vermont" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Virginia" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Washington" stemOrg = "Washington STEM" url = "http://www.washingtonstem.org" stateMode = "ON">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="West Virginia" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Wisconsin" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Wyoming" stateMode = "OFF">
+<![CDATA[]]>
+</stateData>
+
+
+</data>
