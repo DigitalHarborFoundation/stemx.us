@@ -2526,7 +2526,7 @@ BDO[DIR="rtl"] {
 		padding-top: 2em;
 	}
 	#mapDiv1 {  
-    width: 400px;
+    width: 600px;
     height: 400px;
     position: relative;
 }
@@ -2596,6 +2596,13 @@ BDO[DIR="rtl"] {
 	height:200px;
 	vertical-align: middle;
 		}
+		
+	#mapDiv1 {  
+    width: 400px;
+    height: 200px;
+    position: relative;
+    }
+
 		
 }
 
