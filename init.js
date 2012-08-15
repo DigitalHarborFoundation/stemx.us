@@ -128,7 +128,7 @@ $(function () {
                       offsetx: 3
                     }).toFront();
                     this.toFront();
-                    var title = stateNames[this.id] + " - " + stemOrgs[this.id] + "<br/>click to go to site";
+                    var title = stateNames[this.id] + " - " + stemOrgs[this.id] + "<br/><a href='" +stateURLs[this.id]+"'>click to go to site</a>";
                     $("#map").attr("title", title).qtip('option', 'content.text', title).qtip('api').show();
                     
                     current = this;
