@@ -1641,13 +1641,6 @@ form div {
     border-radius: 6px;
 }
 
-#menu-item-61, #menu-item-61:active {
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
-	
-}
 
 
 .menu, .menu ul {
@@ -1655,10 +1648,7 @@ form div {
 	list-style-type:none;
 	margin:30px;
 	padding:0;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+
 }
 
 .menu li {
@@ -1669,27 +1659,17 @@ form div {
 	padding:0;
 	position:relative;
 	z-index:5;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+
 }
 
 .menu li:hover {
 	white-space:normal;
 	z-index:10000;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+
 }
 
 .menu li li {
 	float:none;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
 
 }
 
@@ -1699,21 +1679,14 @@ form div {
 	top:0;
 	visibility:hidden;
 	z-index:10;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+
 
 }
 
 .menu li:hover > ul {
 	top:100%;
 	visibility:visible;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
-s
+
 }
 
 .menu li li:hover > ul {
@@ -1747,10 +1720,7 @@ s
 .menu ul li a:hover, .menu li li a:hover {
 	color:#484848;
 	text-decoration:none;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+
 
 }
 
@@ -1834,6 +1804,10 @@ s
 
 .menu > li:first-child > a {
 	border-left:none;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .menu > li:first-child > a, .menu li + li + li li:first-child > a {
