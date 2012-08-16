@@ -2525,12 +2525,20 @@ BDO[DIR="rtl"] {
     #stemx-slogan {
 		padding-top: 2em;
 	}
+	
 	#mapDiv1 {  
     width: 600px;
     height: 400px;
     position: relative;
-}
+    }
     
+    #twitter-sidebar {
+	width:250px;
+	height:100%;
+	display: inline-block;
+	top:90px;
+	margin-top: 4em;
+	}
 
 .scroll-top {
 	text-align:center;
@@ -2576,6 +2584,13 @@ BDO[DIR="rtl"] {
 	}
 	
 	*/
+	#twitter-sidebar {
+		width:250px;
+		height:100%;
+		display: inline-block;
+		top:90px;
+		margin-top: 4em;
+	}
 	
 	#stemx-slogan {
 		
@@ -2623,6 +2638,13 @@ BDO[DIR="rtl"] {
     }
 
 */
+	#twitter-sidebar {
+		width:250px;
+		height:100%;
+		display: inline-block;
+		top:90px;
+		margin-top: 4em;
+	}
 	
 	#featured-image .fluid-width-video-wrapper {
 	    margin:20px 0 0 0;
