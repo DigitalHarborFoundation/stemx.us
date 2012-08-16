@@ -38,14 +38,13 @@ td {
     padding: 0px;
     border-spacing: 0px;
     vertical-align: top;
-    text-align: center;
     position: relative;
     top: 25px;
     display: inline-block;
 }
 #mapDiv1 {    /*  set to size of image and top spacing  */
 /*675x 400 */
-    width: 851px;
+    width: 700px;
     top: 2px;
     height: 600px;
     position: relative;
@@ -1277,6 +1276,7 @@ form div {
 #content-home {
 	height: auto;
 	float: left;
+	width:100%;
 }
 #content-archive {
 	margin-bottom:20px;
@@ -1471,12 +1471,11 @@ form div {
 	border-radius:6px; 
 	font-size:13px;
 	margin:0 0 20px;
-	padding:20px;
 }
 
 #twitter-sidebar {
 	width:250px;
-	height:400px;
+	height:100%;
 	display: inline-block;
 	top:90px;
 	}
@@ -1500,7 +1499,7 @@ form div {
 .home #widgets {
 	margin-top:0;
 	width:250px;
-	height:400px;
+	height:100%;
 }
 
 #widgets a {
