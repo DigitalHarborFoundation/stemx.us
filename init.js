@@ -165,6 +165,9 @@ $(function () {
         				x: 10,  y: 10
         			}
         		},
+        		show: {
+        		  delay: 0
+        		},
         		hide: {
         			fixed: true
         		},
