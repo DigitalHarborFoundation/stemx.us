@@ -33,13 +33,12 @@ if ( !defined('ABSPATH')) exit;
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<script src="jquery.js"></script>
+<?php wp_head(); ?>
+
 <script type='text/javascript' src='jquery.qtip.min.js'></script>
 <script src="raphael.min.js" type="text/javascript"></script>
 <script src="scale.raphael.js" type="text/javascript"></script>
 <script src="paths.js" type="text/javascript"></script>
-
-<?php wp_head(); ?>
 <link rel='stylesheet' href='jquery.qtip.min.css' type='text/css' />
 <link rel='stylesheet' href='/wp-content/themes/responsive/style.css' type='text/css' />
 </head>
