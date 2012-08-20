@@ -1,0 +1,13 @@
+Thumbs.db
+.svn
+_svn
+*.kpf
+*.swp
+.buildpath
+.settings
+*.komodoproject
+/wp-content/writable
+/wp-content/uploads
+/media
+.rvmrc
+.DS_Store
