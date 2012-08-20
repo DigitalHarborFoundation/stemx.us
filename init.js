@@ -1,4 +1,4 @@
-$(function () {
+(function($) { $(function () {
 
     var stateNames = new Array();
     var stateURLs = new Array();
@@ -229,4 +229,4 @@ $(function () {
 
 
 
-});
+}); })(jQuery);
