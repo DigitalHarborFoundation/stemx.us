@@ -88,22 +88,21 @@ if ( !defined('ABSPATH')) exit;
          ?>
          </div><!-- end of col-300 fit -->
                 
-        <div class="grid col-300 copyright">
-            <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="http://www.stemx.us/wp-login.php" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"> Battelle - all rights reserved</a>
-                
-                <!-- <?php bloginfo('name'); ?> -->
-            </a>
-        </div><!-- end of .copyright -->
+        <div class="grid col-300">
+          
+        </div><!-- end of col-300 fit -->
         
-        <div class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a>
+        <div class="grid col-300 scroll-top"><a href="#scroll-top" title="scroll to top">&uarr;</a>
         <div>
-        <table>
-        </table>
+        
         </div>
         
         <div id ="battelle-logo">
         	<a href="http://www.battelle.org/"><img src="http://stemx.us/wp-content/uploads/2012/06/Battelle-logo.png"></a>
         </div>
+        <div class="copyright">
+          &copy; 2012<a href="http://www.stemx.us/wp-login.php" title="STEMx"> Battelle - all rights reserved</a>
+        </div><!-- end of .copyright -->
         </div>
         
         

@@ -1,4 +1,180 @@
-/* 
+/*   
+Theme Name: stemx_test
+Description: A Child Theme of responsive
+Template: responsive
+*/
+
+body {
+    /*  padding setting here as it upsets overlib if it is in *   */
+    padding: 0px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-spacing: 0px;
+	height: 1110px;
+
+}
+td {
+    /* no padding here, it upsets overlib */
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+#main {
+	margin:0px;
+	width: 100%; 
+	height: 700px;
+	text-align: left;
+}
+.mainTable {
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 851px;
+    border-spacing: 0px;
+    text-align: center;
+}
+.mapCell {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    vertical-align: top;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+}
+#mapDiv1 {    /*  set to size of image and top spacing  */
+/*675x 400 */
+    width: 700px;
+    top: 2px;
+    height: 600px;
+    position: relative;
+}
+
+
+.overDivStyle {
+    visibility: hidden;
+    position: absolute;
+    
+}
+#overDiv td, #overDiv table, #overDiv th {
+	border: 2px;
+	margin: 0px;
+	padding: 2px;
+	
+}
+
+table {
+    /*  do not set anything here as it upsets overlib  */
+}
+a {
+    
+    font-weight: bold;
+}
+
+.mapImg {
+    border-spacing: 0px;
+    border-width: 0px;
+    right: auto;
+    left: auto;
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+}
+.mapDiv {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    border-width: 0px;
+    text-align: left;
+    border-spacing: 0px;
+    vertical-align: top;
+    position: relative;
+}
+#logo {
+	position:relative;
+	padding-top: 10px;
+	text-align: center;
+	
+	}
+
+
+.state {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display:none;
+}
+
+
+#downArrow {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+
+
+
+
+#sidebar {
+    width: 23%;
+    border: 2px #a2a2a2 solid;
+    float: right;
+}
+
+
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+    }
+}
+
+#battelle-logo, #battelle-logo a, #battelle-logo img {
+	width: 100px;
+	height: 27px;
+	right: auto;
+	left: auto;
+	top: 30px;
+}
+
+#stemx-slogan {
+	display: inline-block;
+	position: relative;	
+	padding-left: 2em;
+	top:-1.5em;
+}
+
+
+#state-logos {
+	text-align: center;
+	border: 0px;
+	width:100%;
+	
+}
+#state-logos article {
+	display: inline-table;
+	width: 250px;
+	height:200px;
+	vertical-align: middle;
+	
+}
+#state-logos article * {
+	
+	vertical-align: middle;	
+	
+	
+}
+
+#state-logos article a {
+	
+	display: table-cell;
+		vertical-align: middle;	
+	width:100%;
+	
+}
+
+    /* 
 Theme Name: Responsive 
 Theme URI: http://themeid.com/responsive-theme/ 
 Description: Responsive WordPress Theme that features 9 page Templates such as Blog, Blog Summary and Template based layout designs: sidebar/content, sidebar/content half, content/sidebar and content/sidebar half. There is also full width page, sitemap Template as well as landing page for your PPC or any other purposes. Responsive also supports 9 widget areas and best of all this Theme is crafted with fluid proportion-based grid system of our own to adapt the design to the viewing environment. There are also Theme Options to control the content, webmaster tools, logo managament, social icons and 4 navigation menus. Currently translated in German, French, Portuguese, Italian, Swedish, Malay, Catalan, Spanish, Bulgarian, Norwegian, Croatian and Serbian (Latin) language. Everything is backed by our FREE dedicated support forums @ http://themeid.com/forum
@@ -20,6 +196,7 @@ CSS Rules: Sorted alphabetically for better organization.
 	
 /* =Reset CSS (v2.0) http://meyerweb.com/eric/tools/css/reset/
 -------------------------------------------------------------- */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin:0;
 	padding:0;
@@ -28,7 +205,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font:inherit;
 	vertical-align:baseline;
 }
-
 /*HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display:block;
@@ -203,6 +379,7 @@ sub {
 .col-300 {
 	width:31.914893617021%;
 }
+
 
 .col-380 {
 	width:40.425531914894%;
@@ -913,6 +1090,7 @@ h4 {
 
 h5 {
 	font-size:1.2em;
+	line-height:1.4em;
 }
 
 h6 {
@@ -1033,7 +1211,7 @@ form div {
 	border:1px solid #d6d6d6;
 	border-radius: 6px;
 	clear:both;
-	margin: 20px auto 20px auto;
+	margin: 20px 0px 20px 0px;
 	padding: 0 20px 20px 20px;
 	position:relative;
 }
@@ -1041,8 +1219,8 @@ form div {
 .home #wrapper {
 	background-color:transparent;
 	border:none;
-	margin: 20px auto 20px auto;
-	padding:0
+	margin: 20px 0px 20px 0px;
+	padding:0;
 }
 
 #header {
@@ -1054,6 +1232,7 @@ form div {
 	margin:0 auto;
 	max-width:960px;
 	padding:10px 25px 0 25px;
+	height: 140px;
 }
 
 #footer-wrapper {
@@ -1061,10 +1240,13 @@ form div {
 	padding:0;
 }
 
+
+
 /* =Header
 -------------------------------------------------------------- */
 #header #logo {
-	float:left;
+	right:auto;
+	left:auto;
 	margin:0;
 }
 
@@ -1088,8 +1270,14 @@ form div {
 -------------------------------------------------------------- */
 #content {
 	margin-bottom:20px;
+	height:inherit;
+	position: relative;
+	}
+#content-home {
+	height: auto;
+	float: left;
+	width:100%;
 }
-
 #content-archive {
 	margin-bottom:20px;
 }
@@ -1280,11 +1468,29 @@ form div {
     -moz-border-radius:6px;
 	background-color:#f9f9f9;
 	border:1px solid #d6d6d6;
-	border-radius:6px;
+	border-radius:6px; 
 	font-size:13px;
 	margin:0 0 20px;
-	padding:20px;
 }
+
+#twitter-sidebar {
+	width:250px;
+	height:100%;
+	display: inline-block;
+	top:90px;
+	}
+	
+.twitter-wrapper {
+	
+	
+}
+#wp_twitter_goodies_profile_widgets {
+		background-color: transparent;
+		border: 0;	
+		
+	
+}
+
 
 #widgets {
 	margin-top:40px;
@@ -1292,6 +1498,8 @@ form div {
 
 .home #widgets {
 	margin-top:0;
+	width:250px;
+	height:100%;
 }
 
 #widgets a {
@@ -1426,13 +1634,20 @@ form div {
 	clear:both;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#585858, endColorstr=#3d3d3d);
 	margin:0 auto;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
 }
+
+
 
 .menu, .menu ul {
 	display:block;
 	list-style-type:none;
-	margin:0;
+	margin:30px;
 	padding:0;
+
 }
 
 .menu li {
@@ -1443,15 +1658,18 @@ form div {
 	padding:0;
 	position:relative;
 	z-index:5;
+
 }
 
 .menu li:hover {
 	white-space:normal;
 	z-index:10000;
+
 }
 
 .menu li li {
 	float:none;
+
 }
 
 .menu ul {
@@ -1460,11 +1678,14 @@ form div {
 	top:0;
 	visibility:hidden;
 	z-index:10;
+
+
 }
 
 .menu li:hover > ul {
 	top:100%;
 	visibility:visible;
+
 }
 
 .menu li li:hover > ul {
@@ -1498,6 +1719,8 @@ form div {
 .menu ul li a:hover, .menu li li a:hover {
 	color:#484848;
 	text-decoration:none;
+
+
 }
 
 .menu ul {
@@ -1530,6 +1753,7 @@ form div {
 	background-image:linear-gradient(top, #808080, #363636);
 	color:#fff;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#808080, endColorstr=#363636);
+    
 }
 
 .menu .current_page_item a {
@@ -1579,6 +1803,10 @@ form div {
 
 .menu > li:first-child > a {
 	border-left:none;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .menu > li:first-child > a, .menu li + li + li li:first-child > a {
@@ -1802,6 +2030,7 @@ form div {
 	line-height:28px;
 	margin:20px 0;
 	padding:0 5px;
+	
 }
 
 .navigation a {
@@ -2169,6 +2398,8 @@ img.wp-post-image, img.attachment-thumbnail, img.attachment-medium, img.attachme
 
 .copyright {
 	text-align:left;
+	margin-top: 10px;
+	display: inline-block;
 }
 
 .powered {
@@ -2281,13 +2512,37 @@ BDO[DIR="rtl"] {
     body {
     }
 
+   /*  Do not know if I really need this or nor for mobile
     .grid, .grid-right {
 	    float:none;
     }
-	
+
+*/
 	#featured-image .fluid-width-video-wrapper {
 	    margin:20px 0 0 0;
     }
+    
+    #stemx-slogan {
+		padding-top: 2em;
+	}
+	
+	#mapDiv1 {  
+    width: 600px;
+    height: 400px;
+    position: relative;
+    }
+    
+    #twitter-sidebar {
+	width:250px;
+	height:100%;
+	display: inline-block;
+	top:90px;
+	margin-top: 4em;
+	}
+
+.scroll-top {
+	text-align:center;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -2300,10 +2555,12 @@ BDO[DIR="rtl"] {
 	    text-align:center;
     }
 
+/*  Do not know if I really need this or nor for mobile
     .grid, .grid-right {
 	    float:none;
     }
 
+*/
 	#featured-image .fluid-width-video-wrapper {
 	    margin:20px 0 0 0;
     }
@@ -2317,13 +2574,29 @@ BDO[DIR="rtl"] {
 	    float:none;
 	    text-align:center;
     }
-	
+    
+
+	/*  tinynav for mobile devices (looks ugly)
 	.tinynav { 
 	    display:block;
 		margin:0 auto;
 		width:100%;
 	}
 	
+	*/
+	#twitter-sidebar {
+		width:250px;
+		height:100%;
+		display: inline-block;
+		top:90px;
+		margin-top: 4em;
+	}
+	
+	#stemx-slogan {
+		
+		padding-top: 2em;
+		
+	}
     #footer {
 	    text-align:center;
     }
@@ -2331,11 +2604,27 @@ BDO[DIR="rtl"] {
     #footer .social-icons {
 	    text-align:center;
     }
+    
+    #state-logos article {
+	display: table-row;
+	width: 200px;
+	height:200px;
+	vertical-align: middle;
+		}
+		
+	#mapDiv1 {  
+    width: 400px;
+    height: 200px;
+    position: relative;
+    }
+
+		
 }
 
 @media screen and (max-width: 480px) {
 
     body {
+    text-align: center;
     }
 
     #header #logo {
@@ -2343,9 +2632,19 @@ BDO[DIR="rtl"] {
 	    text-align:center;
     }
 
+ /*  Do not know if I really need this or nor for mobile
     .grid, .grid-right {
 	    float:none;
     }
+
+*/
+	#twitter-sidebar {
+		width:250px;
+		height:100%;
+		display: inline-block;
+		top:90px;
+		margin-top: 4em;
+	}
 	
 	#featured-image .fluid-width-video-wrapper {
 	    margin:20px 0 0 0;
@@ -2355,13 +2654,27 @@ BDO[DIR="rtl"] {
 	    float:none;
 	    text-align:center;
     }
-	
+    
+	.copyright {
+		text-align:center;
+		margin-top:10px;
+		
+	}
     #footer {
 	    text-align:center;
     }
 
     #footer .social-icons {
 	    text-align:center;
+    }
+    #tooltip {
+    	position: absolute;
+    	z-index: 3000;
+    	border: 1px solid #111;
+    	background-color: #eee;
+    	padding: 5px;
+    	opacity: 0.85;
+    	display: none;
     }
 }
 /*"The last 29 days of the month are the hardest."- Nikola Tesla*/

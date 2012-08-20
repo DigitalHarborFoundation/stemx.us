@@ -33,32 +33,14 @@ if ( !defined('ABSPATH')) exit;
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<script src="http://www.stemx.us/wp-content/themes/stemx_test/overlibmws.js" type="text/javascript"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.5.9');?>
+<script src="jquery.js"></script>
+<script type='text/javascript' src='jquery.qtip.min.js'></script>
+<script src="raphael.min.js" type="text/javascript"></script>
+<script src="scale.raphael.js" type="text/javascript"></script>
+<script src="paths.js" type="text/javascript"></script>
 
 <?php wp_head(); ?>
-<!-- jquery function that makes the maps hover-->
-<script>
-$(function() {
-
-window.showState = function(state)
-{
- $(".state").fadeOut(1000).hide();
- $("." + state).show();
-}
-
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-$("img.rollover").hover( 
-function() { this.src = this.src.replace("_off", "_on"); 
-}, 
-function() { this.src = this.src.replace("_on", "_off"); 
-});
-}); 
-</script>
+<link rel='stylesheet' href='jquery.qtip.min.css' type='text/css' />
 </head>
 
 <body <?php body_class(); ?>>
@@ -67,6 +49,16 @@ function() { this.src = this.src.replace("_on", "_off");
          
     <?php responsive_header(); // before header hook ?>
     <div id="header">
+      
+	               
+        <div id="logo">
+            <a href="http://www.stemx.us/"><img src="http://www.stemx.us/wp-content/uploads/2012/06/copy-stemxLogo.png" width="392" height="104" alt="STEMx" /></a>
+            <div id="stemx-slogan">
+        	<p>
+            	<strong>"</strong> Transforming STEM education and </br>workforce development in the states, </br>by the states.<strong>"</strong>
+            </p>
+        	
+        </div>
     
         <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
@@ -79,29 +71,6 @@ function() { this.src = this.src.replace("_on", "_off");
         <?php } ?>
         
     <?php responsive_in_header(); // header hook ?>
-   
-	<?php if ( get_header_image() != '' ) : ?>
-               
-        <div id="logo">
-            <a href="<?php echo home_url('/'); ?>"><img src="<?php header_image(); ?>" width="<?php if(function_exists('get_custom_header')) { echo get_custom_header() -> width;} else { echo HEADER_IMAGE_WIDTH;} ?>" height="<?php if(function_exists('get_custom_header')) { echo get_custom_header() -> height;} else { echo HEADER_IMAGE_HEIGHT;} ?>" alt="<?php bloginfo('name'); ?>" /></a>
-            <div id="stemx-slogan">
-        	<p>
-            	<strong>"</strong> Transforming STEM education and </br>workforce development in the states, </br>by the states.<strong>"</strong>
-            </p>
-        	
-        </div>
-        </div><!-- end of #logo -->
-        
-    <?php endif; // header image was removed ?>
-
-    <?php if ( !get_header_image() ) : ?>
-                
-        <div id="logo">
-            <span class="site-name"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></span>
-            <span class="site-description"><?php bloginfo('description'); ?></span>
-        </div><!-- end of #logo -->  
-
-    <?php endif; // header image was removed (again) ?>
 			    
 				<?php wp_nav_menu(array(
 				    'container'       => '',
