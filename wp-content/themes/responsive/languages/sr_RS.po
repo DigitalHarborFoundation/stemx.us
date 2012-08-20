@@ -1,0 +1,800 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-25 13:42:58 UTC\n"
+"PO-Revision-Date: 2012-06-02 00:15+0100\n"
+"Last-Translator: grapplerulrich <grapplerulrich@gmail.com>\n"
+"Language-Team: Serbian (Latin)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WebTranslateIt.com\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 — Otkud ti ovde !"
+
+#: page.php
+#: landing-page.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: 404.php
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "Nema mesta za paniku, zajedno ćemo rešiti problem. Istražimo opcije."
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: 404.php
+msgid "You can return"
+msgstr "Možeš se vratiti"
+
+#: page.php
+#: landing-page.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: 404.php
+msgid "Home"
+msgstr "Početna"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: 404.php
+msgid "&larr; Home"
+msgstr "← Početna"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+#: 404.php
+msgid "or search for the page you were looking for"
+msgstr "ili pronađi stranicu koju želiš"
+
+#: archive.php
+msgid "Daily Archives: %s"
+msgstr "Dnevna arhiva: %s"
+
+#: archive.php
+msgid "Monthly Archives: %s"
+msgstr "Mesečna arhiva: %s"
+
+#: archive.php
+msgid "Yearly Archives: %s"
+msgstr "Godišnja arhiva: %s"
+
+#: archive.php
+msgid "Blog Archives"
+msgstr "Blog arhiva"
+
+#: index.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Permanent Link to %s"
+msgstr "Trajni link na %s"
+
+#: page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "<span class=\"%1$s\">Posted on</span> %2$s by %3$s"
+msgstr "<span class=\"%1$s\">Objavljeno</span> %2$s u %3$s"
+
+#: page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "View all posts by %s"
+msgstr "Vidi postove od %s"
+
+#: archive.php
+#: blog-excerpt.php
+#: blog.php
+#: page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+msgid "No Comments &darr;"
+msgstr "Nema komentara ↓"
+
+#: page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "1 Comment &darr;"
+msgstr "1 komentar ↓"
+
+#: page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "% Comments &darr;"
+msgstr "% komentara ↓"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Pages:"
+msgstr "Stranice:"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Tagged with:"
+msgstr "Označeno sa:"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Posted in %s"
+msgstr "Pisano u %s"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: image.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Edit"
+msgstr "Izmeni"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "&#8249; Older posts"
+msgstr "‹ Stariji postovi"
+
+#: page.php
+#: landing-page.php
+#: index.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+#: blog.php
+#: blog-excerpt.php
+#: archive.php
+msgid "Newer posts &#8250;"
+msgstr "Novi postovi ›"
+
+#: blog.php
+#: page.php
+#: landing-page.php
+#: index.php
+#: full-width-page.php
+#: content-sidebar-page.php
+#: content-sidebar-half-page.php
+msgid "Read more &#8250;"
+msgstr "Pročitaj dalje ›"
+
+#: comments.php
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ovaj post je zaštićen lozinkom. Unesi lozinku da vidiš komentare."
+
+#. Don't translate the zero value there is no point
+#: comments.php
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentra u “%2$s”"
+msgstr[1] "%1$s komentra u “%2$s”"
+msgstr[2] "Jedan komentar u “%2$s”"
+
+#: comments.php
+msgid "&#8249; Older comments"
+msgstr "‹ Stariji komentari"
+
+#: comments.php
+msgid "Newer comments &#8250;"
+msgstr "Novi komentari ›"
+
+#: comments.php
+msgid "Pings&#47;Trackbacks"
+msgstr "Pingovi/Trackbackovi"
+
+#: comments.php
+msgid "for"
+msgstr "za"
+
+#: comments.php
+msgid "Name"
+msgstr "Ime"
+
+#: comments.php
+msgid "E-mail"
+msgstr "E-mail"
+
+#: comments.php
+msgid "Website"
+msgstr "Web stranica"
+
+#: footer.php
+msgid "&copy;"
+msgstr "&copy;"
+
+#: footer.php
+msgid "scroll to top"
+msgstr "na vrh"
+
+#: footer.php
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: footer.php
+msgid "Responsive Theme"
+msgstr "Responsive Theme"
+
+#: footer.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: home.php
+msgid "Hello, World!"
+msgstr "Pozdrav, Svetu!"
+
+#: home.php
+msgid "Your H2 subheadline here"
+msgstr "H2 podnaslov ovde"
+
+#: home.php
+msgid ""
+"Your title, subtitle and this very content is editable from Theme Option. \n"
+"\t\t\t\t\t      Call to Action button and its destination link as well. Image on your right \n"
+"\t\t\t\t\t\t  can be an image or even YouTube video if you like."
+msgstr ""
+"Naslov, podnaslov i sadržaj koji se vidi može se izmeniti pod Opcije teme. \n"
+" \n"
+"\t\t\t\t\t      Call to Action ikona i njegov link. Desna slika \n"
+" \n"
+"\t\t\t\t\t\t  ako želiš, može biti slika ili youtube video."
+
+#: home.php
+msgid "Call to Action"
+msgstr "Call to Action"
+
+#: image.php
+msgid "&#8249; Return to"
+msgstr "&#8249; Vrati na"
+
+#: image.php
+msgid "Read more &#8250;;"
+msgstr "Pročitaj više ›;"
+
+#: index.php
+#: image.php
+msgid "Don't panic, we'll get through this together. Let's explore our options here."
+msgstr "Nema mesta za paniku, zajedno ćemo rešiti problem. Istražimo opcije."
+
+#: index.php
+#: image.php
+msgid "home"
+msgstr "početna"
+
+#: includes/functions.php
+msgid "Top Menu"
+msgstr "Glavni Meni"
+
+#: includes/functions.php
+msgid "Header Menu"
+msgstr "Header meni"
+
+#: search.php
+msgid "Search Results for: %s"
+msgstr "Rezultati pretrage za: %s"
+
+#: includes/functions.php
+msgid "Sub-Header Menu"
+msgstr "Sub-Header Meni"
+
+#: includes/functions.php
+msgid "Footer Menu"
+msgstr "Footer Meni"
+
+#: includes/functions.php
+msgid "<div class=\"read-more\">Read more &#8250;</div><!-- end of .read-more -->"
+msgstr "<div class=\"read-more\">Pročitaj dalje &#8250;</div><!-- end of .read-more -->"
+
+#: search.php
+msgid "Your search for"
+msgstr "Pretaži za"
+
+#: search.php
+msgid "did not match any entries"
+msgstr "ne podudara se sa sadržajem"
+
+#: includes/functions.php
+msgid "Page"
+msgstr "Stranica"
+
+#: includes/functions.php
+msgid "Untitled"
+msgstr "Bez naslova"
+
+#: includes/functions.php
+msgid "Main Sidebar"
+msgstr "Glavni Sidebar"
+
+#: includes/functions.php
+msgid "Area One - sidebar.php"
+msgstr "Prvo mesto - sidebar.php"
+
+#: includes/functions.php
+msgid "Right Sidebar"
+msgstr "Desni sidebar"
+
+#: includes/functions.php
+msgid "Area Two - sidebar-right.php"
+msgstr "Drugo mesto - sidebar-right.php"
+
+#: includes/functions.php
+msgid "Left Sidebar"
+msgstr "Levi sidebar"
+
+#: includes/functions.php
+msgid "Area Three - sidebar-left.php"
+msgstr "Treće mesto - sidebar-left.php"
+
+#: includes/functions.php
+msgid "Left Sidebar Half Page"
+msgstr "Levi sidebar polovina stranice"
+
+#: includes/functions.php
+msgid "Area Four - sidebar-left-half.php"
+msgstr "Četvrto mesto - sidebar-lesft-half.php"
+
+#: includes/functions.php
+msgid "Right Sidebar Half Page"
+msgstr "Desni sidebar pola stranice"
+
+#: includes/functions.php
+msgid "Area Five - sidebar-right-half.php"
+msgstr "Peto mesto - sidebar-right-half.php"
+
+#: includes/functions.php
+#: sidebar-home.php
+msgid "Home Widget 1"
+msgstr "Početna dodatak 1"
+
+#: sidebar-home.php
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area six called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "Ovo je prvi widget box početne stranice. Za izmenu idi na Izgled > Widgeti i odaberi 6ti widget sa vrha na šestom mestu koji se zove Home Widget 1. Naslov se može takođe menjati u widgetima."
+
+#: includes/functions.php
+msgid "Area Six - sidebar-home.php"
+msgstr "Šesto mesto - sidebar-home.php"
+
+#: includes/functions.php
+#: sidebar-home.php
+msgid "Home Widget 2"
+msgstr "Početna dodatak 2"
+
+#: sidebar-home.php
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area seven called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "Ovo je drugi widget box početne stranice. Za izmenu idi na Izgled > Widgeti i odaberi 7mi widget sa vrha na sedmom mestu koji se zove Home Widget 2. Naslov se može takođe menjati u widgetima."
+
+#: includes/functions.php
+msgid "Area Seven - sidebar-home.php"
+msgstr "Sedmo mesto - sidebar-home,php"
+
+#: includes/functions.php
+#: sidebar-home.php
+msgid "Home Widget 3"
+msgstr "Početna dodatak 3"
+
+#: sidebar-home.php
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area eight called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "Ovo je treći widget box početne stranice. Za izmenu idi na Izgled > Widgeti i odaberi 8mi widget sa vrha na osmom mestu koji se zove Home Widget 3. Naslov se može takođe menjati u widgetima."
+
+#: includes/functions.php
+msgid "Area Eight - sidebar-home.php"
+msgstr "Osmo mesto - sidebar-home.php"
+
+#: includes/functions.php
+msgid "Gallery Sidebar"
+msgstr "Sidebar galerije"
+
+#: includes/functions.php
+msgid "Area Nine - sidebar-gallery.php"
+msgstr "Deveto mesto - sidebar-gallery.php"
+
+#: sitemap.php
+msgid "Pages"
+msgstr "Stranice"
+
+#: includes/theme-options.php
+msgid "Theme Options"
+msgstr "Opcije teme"
+
+#: includes/theme-options.php
+msgid "Options Saved"
+msgstr "Opcije sačuvane"
+
+#: includes/theme-options.php
+msgid "Theme Elements"
+msgstr "Elementi teme"
+
+#: includes/theme-options.php
+msgid "Disable Breadcrumb Lists?"
+msgstr "Deaktiviraj Breadcrumb listu?"
+
+#: includes/theme-options.php
+msgid "Check to disable"
+msgstr "Označi za deaktivaciju"
+
+#: includes/theme-options.php
+msgid "Disable Call to Action Button?"
+msgstr "Deaktiviraj Call to Action ikonicu?"
+
+#: includes/theme-options.php
+msgid "Save Options"
+msgstr "Sačuvaj opcije"
+
+#: includes/theme-options.php
+msgid "Logo Upload"
+msgstr "Upload loga"
+
+#: includes/theme-options.php
+msgid "Custom Header"
+msgstr "Tvoj header"
+
+#: includes/theme-options.php
+msgid "Need to replace or remove default logo? <a href=\"%s\">Click here</a>."
+msgstr "Želiš da zameni ili izbrieš logo? <a href=\"%s\">Klikni ovde</a>."
+
+#: includes/theme-options.php
+msgid "Home Page"
+msgstr "Početna"
+
+#: includes/theme-options.php
+msgid "Headline"
+msgstr "Naslov"
+
+#: includes/theme-options.php
+msgid "Enter your headline"
+msgstr "Upiši naslov"
+
+#: includes/theme-options.php
+msgid "Subheadline"
+msgstr "Podnaslov"
+
+#: includes/theme-options.php
+msgid "Enter your subheadline"
+msgstr "Upiši podnaslov"
+
+#: includes/theme-options.php
+msgid "Content Area"
+msgstr "Sadržaj"
+
+#: includes/theme-options.php
+msgid "Enter your content"
+msgstr "Unesi sadržaj"
+
+#: includes/theme-options.php
+msgid "Call to Action (URL)"
+msgstr "Call to Action (URL)"
+
+#: includes/theme-options.php
+msgid "Enter your call to action URL"
+msgstr "Upiši Call to Action URL"
+
+#: includes/theme-options.php
+msgid "Call to Action (Text)"
+msgstr "Call to Action (Tekst)"
+
+#: includes/theme-options.php
+msgid "Enter your call to action text"
+msgstr "Upiši Call to Action tekst"
+
+#: includes/theme-options.php
+msgid "Featured Content"
+msgstr "Istaknuti sadržaj"
+
+#: includes/theme-options.php
+msgid "Paste your video or image source"
+msgstr "Upiši video ili foto kod"
+
+#: includes/theme-options.php
+msgid "Webmaster Tools"
+msgstr "Alati za webmastere"
+
+#: includes/theme-options.php
+msgid "Google Site Verification"
+msgstr "Google verifikacija sajta"
+
+#: includes/theme-options.php
+msgid "Enter your Google ID number only"
+msgstr "Unesi samo Google ID broj"
+
+#: includes/theme-options.php
+msgid "Bing Site Verification"
+msgstr "Bing verifikacija sajta"
+
+#: includes/theme-options.php
+msgid "Enter your Bing ID number only"
+msgstr "Unesi samo Bing ID broj"
+
+#: includes/theme-options.php
+msgid "Yahoo Site Verification"
+msgstr "Yahoo verifikacija sajta"
+
+#: includes/theme-options.php
+msgid "Enter your Yahoo ID number only"
+msgstr "Unesi samo Yahoo ID broj"
+
+#: includes/theme-options.php
+msgid "Site Statistics Tracker"
+msgstr "Praćenje statiske sajta"
+
+#: includes/theme-options.php
+msgid "Google Analytics, StatCounter, any other or all of them."
+msgstr "Google Analytics, StatCounter, neke drugi ili svi."
+
+#: includes/theme-options.php
+msgid "Social Icons"
+msgstr "Socijalne ikone"
+
+#: includes/theme-options.php
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Enter your Twitter URL"
+msgstr "Unesite Vaš Twitter URL"
+
+#: includes/theme-options.php
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Enter your Facebook URL"
+msgstr "Unesite Vaš Facebook URL"
+
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+msgid "Enter your LinkedIn URL"
+msgstr "Unesite Vaš Linkedln URL"
+
+#: includes/theme-options.php
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Enter your YouTube URL"
+msgstr "Unesite Vaš Youtube URL"
+
+#: includes/theme-options.php
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+msgid "Enter your StumbleUpon URL"
+msgstr "Unesite Vaš StumbleUpon URL"
+
+#: includes/theme-options.php
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+msgid "Enter your RSS Feed URL"
+msgstr "Unesite Vaš RSS Feed URL"
+
+#: includes/theme-options.php
+msgid "Google+"
+msgstr "Google+"
+
+msgid "Enter your Google+ URL"
+msgstr "Unesite Vaš Google+ URL"
+
+#: searchform.php
+msgid "search here &hellip;"
+msgstr "pretraga ..."
+
+#: searchform.php
+msgid "Go"
+msgstr "Traži"
+
+#: sidebar-gallery.php
+msgid "Image Information"
+msgstr "Info o fotografiji"
+
+#: sidebar-gallery.php
+msgid "Full Size:"
+msgstr "Velika:"
+
+#: sidebar-gallery.php
+msgid "Aperture: f&#47;"
+msgstr "Aperture: f/"
+
+#: sidebar-gallery.php
+msgid "Focal Length:"
+msgstr "Focal Length:"
+
+#: sidebar-gallery.php
+msgid "mm"
+msgstr "mm"
+
+#: sidebar-gallery.php
+msgid "ISO:"
+msgstr "ISO:"
+
+#: sidebar-gallery.php
+msgid "Shutter:"
+msgstr "Shutter:"
+
+#: sidebar-gallery.php
+msgid "Camera:"
+msgstr "Kamera:"
+
+#: sidebar.php
+#: sidebar-right.php
+#: sidebar-right-half.php
+#: sidebar-left.php
+#: sidebar-left-half.php
+#: sidebar-half-left.php
+msgid "In Archive"
+msgstr "U Arhivi"
+
+#: single.php
+#: search.php
+msgid "About"
+msgstr "O nama"
+
+#: sitemap.php
+msgid "Categories"
+msgstr "Kategorije"
+
+#: sitemap.php
+msgid "Latest Posts"
+msgstr "Poslednji postovi"
+
+#: includes/functions.php
+msgid "Archive for "
+msgstr "Arhiva za "
+
+#: includes/functions.php
+msgid "Search results for "
+msgstr "Rezultati pretrage za "
+
+#: includes/functions.php
+msgid "Posts tagged "
+msgstr "Oznake postova "
+
+#: includes/functions.php
+msgid "All posts by "
+msgstr "Svi postovi od "
+
+#: includes/functions.php
+msgid "Error 404 "
+msgstr "Greška 404 "
+
+#: footer.php
+msgid "http://themeid.com/responsive-theme/"
+msgstr "http://themeid.com/responsive-theme/"
+
+#: footer.php
+msgid "powered by"
+msgstr "izrađeno u"
+
+#: footer.php
+msgid "http://wordpress.org/"
+msgstr "http://sr.wordpress.org/"
+
+#: includes/theme-options.php
+msgid "http://themeid.com/forum/topic/510/theme-options-featured-content/"
+msgstr "http://themeid.com/forum/topic/510/theme-options-featured-content/"
+
+#: includes/theme-options.php
+msgid "See Docs"
+msgstr "Dokumentacija"
+
+#: includes/theme-options.php
+msgid "Leave blank if plugin handles your webmaster tools"
+msgstr "Ostavi prazno ako ti plugin uređuje webmaster alate"
+
+#: includes/theme-options.php
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Enter your Instagram URL"
+msgstr "Unesite Vaš Instagram URL"
+
+#: includes/theme-options.php
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgid "Enter your Pinterest URL"
+msgstr "Unesite Vaš Pinterest URL"
+
+#: includes/theme-options.php
+msgid "Custom CSS Styles"
+msgstr "Poseban CSS stil"
+
+#: includes/theme-options.php
+msgid "https://developer.mozilla.org/en/CSS"
+msgstr "https://developer.mozilla.org/en/CSS"
+
+#: includes/theme-options.php
+msgid "CSS Tutorial"
+msgstr "CSS Tutorial"
+
+msgid "Enter your custom CSS styles."
+msgstr "Unesi lični CSS kod."
+
