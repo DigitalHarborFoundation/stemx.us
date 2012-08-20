@@ -41,6 +41,7 @@ if ( !defined('ABSPATH')) exit;
 
 <?php wp_head(); ?>
 <link rel='stylesheet' href='jquery.qtip.min.css' type='text/css' />
+<link rel='stylesheet' href='/wp-content/themes/responsive/style.css' type='text/css' />
 </head>
 
 <body <?php body_class(); ?>>
