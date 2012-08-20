@@ -1,0 +1,57 @@
+h4.testimonialswidget {
+	margin: 0;
+}
+
+.testimonialswidget_testimonials { 
+	/* quotes wrapper */
+	position: relative;
+}
+
+.testimonialswidget_testimonials .testimonialswidget_active {
+	/* active quote */
+	display: block;
+}
+
+.testimonialswidget_testimonial {
+	display: none;
+	left: 0;
+	margin: 0 0 1em;
+	position: absolute; 
+	top: 0;
+	width: 100%;
+}
+
+.testimonialswidget_testimonial q {
+	/* the quote */
+	/* Remove quotes by uncommenting the following */
+	/*
+	quotes: none;
+	*/
+}
+
+.testimonialswidget_testimonial cite {
+	/* outer wrapper for author & source */
+	display: block; /* To display author and source in a new line */
+	text-align: right; 
+}
+
+.testimonialswidget_testimonial .testimonialswidget_author {
+	/* quote author */
+	font-style: normal;
+}
+
+.testimonialswidget_testimonial .testimonialswidget_join {
+	/* join text */
+}
+
+.testimonialswidget_testimonial .testimonialswidget_source {
+	/* quote source */
+	font-style: italic;
+}
+
+.testimonialswidget_testimonial_list { 
+	display: block;
+	left: initial;
+	position: relative; 
+	top: initial;
+}
