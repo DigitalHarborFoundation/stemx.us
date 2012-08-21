@@ -2588,7 +2588,7 @@ BDO[DIR="rtl"] {
 	#twitter-sidebar {
 		width:300px;
 		height:100%;
-		display: inline-block;
+		display: block;
 		top:90px;
 		margin-top: 4em;
     margin-left: auto;
@@ -2617,6 +2617,9 @@ BDO[DIR="rtl"] {
       vertical-align: middle;
       text-align: center;
 		}
+  	.mapCell {
+  	  display:block;
+  	}
 		
 	#mapDiv1 {  
     width: 400px;
