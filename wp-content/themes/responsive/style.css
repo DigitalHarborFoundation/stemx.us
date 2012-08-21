@@ -2678,4 +2678,13 @@ BDO[DIR="rtl"] {
     	display: none;
     }
 }
+
+/** override css bugs in testimonial plugin **/
+.testinmonialswidget_testimonials {
+  position: static;
+}
+.testimonialswidget_testimonials,
+.testimonialswidget_active {
+  display:static;
+}
 /*"The last 29 days of the month are the hardest."- Nikola Tesla*/
