@@ -101,7 +101,7 @@ if ( !defined('ABSPATH')) exit;
         	<a href="http://www.battelle.org/"><img src="http://stemx.us/wp-content/uploads/2012/06/Battelle-logo.png"></a>
         </div>
         <div class="copyright">
-          &copy; 2012<a href="http://www.stemx.us/wp-login.php" title="STEMx website admin login">Battelle</a> - all rights reserved.
+          &copy; 2012 <a href="http://www.stemx.us/wp-login.php" title="STEMx website admin login">Battelle</a> - all rights reserved.
         </div><!-- end of .copyright -->
         
         </div>
