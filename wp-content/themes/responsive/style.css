@@ -2680,7 +2680,7 @@ BDO[DIR="rtl"] {
 }
 
 /** override css bugs in testimonial plugin **/
-.testinmonialswidget_testimonials {
+.testimonialswidget_testimonials {
   position: static;
 }
 .testimonialswidget_testimonials,
