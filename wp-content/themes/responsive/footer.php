@@ -101,11 +101,10 @@ if ( !defined('ABSPATH')) exit;
         	<a href="http://www.battelle.org/"><img src="http://stemx.us/wp-content/uploads/2012/06/Battelle-logo.png"></a>
         </div>
         <div class="copyright">
-          &copy; 2012<a href="http://www.stemx.us/wp-login.php" title="STEMx"> Battelle - all rights reserved</a>
+          &copy; 2012<a href="http://www.stemx.us/wp-login.php" title="STEMx"> Battelle - all rights reserved.</a> Student-<a href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a></p>
         </div><!-- end of .copyright -->
         
         </div>
-        <p>Student-<a href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a></p>
         
     </div><!-- end of col-940 -->
     </div><!-- end #footer-wrapper -->
