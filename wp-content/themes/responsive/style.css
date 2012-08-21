@@ -1804,10 +1804,10 @@ form div {
 
 .menu > li:first-child > a {
 	border-left:none;
-	-moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    border-radius: 6px;
+	-moz-border-radius: 6px 0 0 6px;
+  -webkit-border-radius: 6px 0 0 6px;
+  -khtml-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
 }
 
 .menu > li:first-child > a, .menu li + li + li li:first-child > a {
