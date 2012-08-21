@@ -2402,15 +2402,6 @@ img.wp-post-image, img.attachment-thumbnail, img.attachment-medium, img.attachme
 	margin-top: 10px;
 	display: inline-block;
 }
-.copyright, .copyright * {
-  -webkit-transition: .33s;
-  -moz-transition: .33s;
-  -oz-transition: .33s;
-  transition: .33s;
-}
-.copyright a:hover {
-  color: black;
-}
 
 .powered {
 	text-align:right;
@@ -2695,5 +2686,15 @@ BDO[DIR="rtl"] {
 .testimonialswidget_testimonials,
 .testimonialswidget_active {
   position: static;
+}
+/** transition for Made with heart in baltimore */
+.copyright, .copyright * {
+  -webkit-transition: .33s;
+  -moz-transition: .33s;
+  -oz-transition: .33s;
+  transition: .33s;
+}
+.copyright a:hover {
+  color: black;
 }
 /*"The last 29 days of the month are the hardest."- Nikola Tesla*/
