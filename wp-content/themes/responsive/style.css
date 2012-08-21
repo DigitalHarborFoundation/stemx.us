@@ -2685,6 +2685,6 @@ BDO[DIR="rtl"] {
 }
 .testimonialswidget_testimonials,
 .testimonialswidget_active {
-  display:static;
+  position: static;
 }
 /*"The last 29 days of the month are the hardest."- Nikola Tesla*/
