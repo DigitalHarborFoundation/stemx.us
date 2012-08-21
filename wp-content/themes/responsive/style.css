@@ -2566,10 +2566,13 @@ BDO[DIR="rtl"] {
 	    margin:20px 0 0 0;
     }
 	
-    .js .menu,
 	.sub-header-menu {
 		display:none;
 	}
+	
+  .js .menu li {
+    float: none;
+  }
 	
 	.top-menu, .footer-menu li {
 	    float:none;
