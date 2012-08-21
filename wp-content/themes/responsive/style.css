@@ -2694,7 +2694,7 @@ BDO[DIR="rtl"] {
   -oz-transition: .33s;
   transition: .33s;
 }
-.copyright a:hover {
-  color: black;
+#footer .copyright a:hover {
+  color: #000;
 }
 /*"The last 29 days of the month are the hardest."- Nikola Tesla*/
