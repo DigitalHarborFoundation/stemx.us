@@ -2573,6 +2573,10 @@ BDO[DIR="rtl"] {
   .js .menu li {
     float: none;
   }
+  .menu a {
+    height: 2em;
+    line-height: 2em;
+  }
 	
 	.top-menu, .footer-menu li {
 	    float:none;
